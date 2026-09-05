@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yeşil Pusula, iklim ve sürdürülebilirlik konularını kod tabanlı sorularla keşfetmeyi sağlayan etkileşimli bir web uygulamasıdır.">
+  <title>Yeşil Pusula</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Ana navigasyon">
+      <a class="logo" href="#main-content" aria-label="Yeşil Pusula ana ekranı">
+        YEŞİL PUSULA<span aria-hidden="true">.</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="hero-section">
+    <section class="game-card" aria-labelledby="game-heading">
+      <p class="eyebrow">İklim farkındalık oyunu</p>
+      <h1 id="game-heading" aria-live="polite">Kod Girişi</h1>
+
+      <div id="code-entry" class="code-entry">
+        <label for="qkod">6 haneli oyun kodunu gir</label>
+        <input
+          type="text"
+          id="qkod"
+          inputmode="numeric"
+          autocomplete="off"
+          maxlength="6"
+          pattern="[0-9]{6}"
+          aria-describedby="invalidcode"
+          placeholder="Örn. 213567"
+        >
+        <p id="invalidcode" class="error-message" role="alert" hidden></p>
+      </div>
+
+      <div class="option-list" aria-label="Cevap seçenekleri" hidden></div>
+
+      <button id="check" class="primary-button" type="button">Kontrol Et</button>
+    </section>
+  </main>
+</body>
+</html>
