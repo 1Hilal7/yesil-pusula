@@ -55,3 +55,11 @@ The initial interface scaffold of the earlier version was adapted from a CodingN
 ## Development
 
 This project is maintained using Git and GitHub.
+
+## TÜBİTAK Project Background
+
+Yeşil Pusula was developed as a digital extension of a TÜBİTAK 2204-D project focused on climate awareness and sustainability.
+
+The original project received 3rd place. After the competition process, we continued developing the idea and transformed its educational content into an interactive web-based experience.
+
+This website represents the software and digital development stage of that work.
