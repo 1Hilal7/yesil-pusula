@@ -51,3 +51,7 @@ The quiz content is kept in `data.js`, while application behavior is separated i
 ## Acknowledgements
 
 The initial interface scaffold of the earlier version was adapted from a CodingNepal web tutorial/template. The current version separates the project logic and quiz data into maintainable files and removes unused template elements.
+
+## Development
+
+This project is maintained using Git and GitHub.
